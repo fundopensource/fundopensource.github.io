@@ -8,7 +8,7 @@
 }
 
 .deck {
-    align-items: start;
+    align-items: stretch;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -21,6 +21,7 @@
 }
 
 .card {
+    flex: 0 1 auto;
     background-color: #fff;
     border-radius: 3px;
     box-shadow:

@@ -1,50 +1,79 @@
 {
     "arch-linux": {
         "title": "Arch Linux",
-        "address": "https://www.archlinux.org/donate/",
+        "address": "https://www.archlinux.org",
         "tagline": "A simple, lightweight distribution",
+        "contribute": "https://wiki.archlinux.org/index.php/getting_involved",
+        "funds": "https://www.archlinux.org/donate",
         "store": "https://www.unixstickers.com/tag/archlinux"
     },
     "debian": {
         "title": "Debian",
-        "address": "https://www.debian.org/donations",
+        "address": "https://www.debian.org",
         "tagline": "The universal operating system",
+        "contribute": "https://www.debian.org/intro/help",
+        "funds": "https://www.debian.org/donations",
         "store": "https://www.debian.org/misc/merchandise"
     },
     "elementary": {
         "title": "elementary OS",
-        "address": "https://elementary.io/get-involved",
+        "address": "https://elementary.io",
         "tagline": "A fast and open replacement for Windows and macOS",
+        "contribute": "https://elementary.io/get-involved",
+        "funds": "https://elementary.io/get-involved#funding",
         "store": "https://elementary.io/store/"
+    },
+    "fedora": {
+        "title": "Fedora",
+        "address": "https://getfedora.org",
+        "tagline": "Less setup, more innovation.",
+        "contribute": "https://fedoraproject.org/wiki/Join",
+        "store": "https://www.unixstickers.com/tag/fedora"
     },
     "linux-mint": {
         "title": "Linux Mint",
-        "address": "https://linuxmint.com/donors.php",
+        "address": "https://linuxmint.com",
         "tagline": "From freedom came elegance",
+        "contribute": "https://linuxmint.com/getinvolved.php",
+        "funds": "https://linuxmint.com/donors.php",
         "store": "https://www.linuxmint.com/store.php"
     },
     "opensuse": {
         "title": "openSUSE",
         "address": "https://opensuse.org/",
         "tagline": "The makers' choice for sysadmins, developers and desktop users",
+        "contribute": "https://en.opensuse.org/Portal:How_to_participate",
         "store": "https://shop.opensuse.org/"
     },
     "solus": {
         "title": "Solus",
-        "address": "https://solus-project.com/support/",
+        "address": "https://solus-project.com",
         "tagline": "The Personal OS for Personal Computers",
+        "contribute": "https://solus-project.com/support",
+        "funds": "https://solus-project.com/support",
         "store": "https://www.unixstickers.com/tag/solus"
     },
     "ubuntu": {
         "title": "Ubuntu",
-        "address": "https://www.ubuntu.com/download/desktop/contribute",
-        "tagline": "Linux for Human Beings",
+        "address": "https://www.ubuntu.com",
+        "tagline": "Fast, secure and simple, Ubuntu powers millions of PCs worldwide",
+        "contribute": "http://community.ubuntu.com/contribute/find-a-task",
+        "funds": "https://www.ubuntu.com/download/desktop/contribute",
         "store": "https://shop.canonical.com/"
     },
     "ubuntu-mate": {
         "title": "Ubuntu MATE",
-        "address": "https://ubuntu-mate.org/donate/",
+        "address": "https://ubuntu-mate.org",
         "tagline": "For a retrospective future",
+        "contribute": "https://ubuntu-mate.org/community",
+        "funds": "https://ubuntu-mate.org/donate",
         "store": "https://ubuntu-mate.boutique/"
+    },
+    "void": {
+        "title": "Void",
+        "address": "https://www.voidlinux.eu/",
+        "tagline": "Enter the void",
+        "contribute": "https://github.com/voidlinux",
+        "funds": "https://www.voidlinux.eu/donations/",
     }
 }

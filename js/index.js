@@ -19,9 +19,23 @@ $.getJSON('/data/distros.json', function (json) {
 
         $('.' + key +' .content-area').append ('<hr/>');
 
-        var store_link = '<a class="action" href="'+ distro.store
-            + '" target="_blank"><i class="fa fa-fw fa-shopping-basket"></i><span>Buy Merch<span></a>';
-        $('.' + key +' .content-area').append (store_link);
+        if (distro.funds) {
+            var funds_link = '<a class="action" href="'+ distro.funds
+                + '" target="_blank"><i class="fa fa-fw fa-money"></i><span>Contribute Funds<span></a>';
+            $('.' + key +' .content-area').append (funds_link);
+        }
+
+        if (distro.store) {
+            var store_link = '<a class="action" href="'+ distro.store
+                + '" target="_blank"><i class="fa fa-fw fa-shopping-basket"></i><span>Buy Merch<span></a>';
+            $('.' + key +' .content-area').append (store_link);
+        }
+
+        if (distro.contribute) {
+            var contribute_link = '<a class="action" href="'+ distro.contribute
+                + '" target="_blank"><i class="fa fa-fw fa-briefcase"></i><span>Volunteer Your Time<span></a>';
+            $('.' + key +' .content-area').append (contribute_link);
+        }
     }
 });
 

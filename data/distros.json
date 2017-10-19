@@ -68,5 +68,12 @@
         "contribute": "https://ubuntu-mate.org/community",
         "funds": "https://ubuntu-mate.org/donate",
         "store": "https://ubuntu-mate.boutique/"
+    },
+    "void": {
+        "title": "Void",
+        "address": "https://www.voidlinux.eu/",
+        "tagline": "Enter the void",
+        "contribute": "https://github.com/voidlinux",
+        "funds": "https://www.voidlinux.eu/donations/",
     }
 }
